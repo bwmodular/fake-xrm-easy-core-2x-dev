@@ -1,3 +1,18 @@
+## [2.3.3]
+
+### Changed
+
+-  Upgraded GitHub Actions to update Java major version to run SonarCloud analysis - https://github.com/DynamicsValue/fake-xrm-easy/issues/110
+º
+ - Introduced new NewEntityRecord method to easily create instances of entity records based on the current use of early-bound or late-bound entities 
+ - Resolves an issue with query evaluation and MultiOptionSets when using late bound entities or if type information is not present. - https://github.com/DynamicsValue/fake-xrm-easy/issues/66
+
+## [2.3.2]
+
+### Changed
+
+- Update legacy CRM SDK 2011 dependency to use official MS package - https://github.com/DynamicsValue/fake-xrm-easy/issues/105
+
 ## [2.3.0]
 
 ### Changed
